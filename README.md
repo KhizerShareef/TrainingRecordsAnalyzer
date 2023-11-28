@@ -4,6 +4,7 @@ Assessment - Analyzes data (.json) based on three requirements
 ## Prerequisites
 
 - Python 3.x installed
+- trainings.txt
 
 ## Installation
 
