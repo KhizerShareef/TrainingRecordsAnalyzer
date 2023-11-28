@@ -38,6 +38,8 @@ def load_data(file_name):
 def find_latest_completions ( data ) :
     # Dictionary to store the most recent completion for each training for each person
     person_latest_completion = defaultdict(dict)
+
+    # handle different cases of date/timestamp formats
     date_formats = ["%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d", "%Y/%m/%d"]
     
     # Find the most recent completion for each training for each person
@@ -46,11 +48,9 @@ def find_latest_completions ( data ) :
         for completion in person["completions"]:
             certificate_name = completion["name"]
             timestamp = completion["timestamp"]
-            
-            # timestamp_date = datetime.strptime(timestamp, "%m/%d/%Y")  # Convert timestamp string to datetime object
-            # timestamp_str = timestamp_date.strftime("%m/%d/%Y")  # Format datetime object to string
-            
+                        
             timestamp_date = None
+            # try each format from the list "date_formats" and find which works the best
             for fmt in date_formats:
                 try:
                     timestamp_date = datetime.strptime(timestamp, fmt)
@@ -68,12 +68,6 @@ def find_latest_completions ( data ) :
                     curr_date = datetime.strptime(person_latest_completion[person_name][certificate_name], "%m/%d/%Y")
                     if timestamp_date > curr_date:
                         person_latest_completion[person_name][certificate_name] = timestamp_str
-
-    # Print person_latest_completion to see the updated date format
-    # for person, completions in person_latest_completion.items():
-    #     print(person)
-    #     print(completions)
-    #     print()
 
     return person_latest_completion
 
@@ -142,10 +136,7 @@ def task2 (data, trainings, fiscal_year):
     # Sorting the list by training name
     people_completed_trainings_list.sort(key=lambda x: x["Training"])
     # generate a output json file that should contain the following: people_completed_trainings_list
-    # for name, completion in people_completed_trainings.items():
-    #     print(name)
-    #     print(completion)
-    #     print()
+
     # save the json file using file
     file_path = 'people_completed_trainings.json'
 
