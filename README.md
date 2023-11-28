@@ -21,7 +21,7 @@ Assessment - Analyzes data (.json) based on three requirements
 3. Modify the `data` variable in `app.py` to include your data or specify the data file path accordingly.
 4. Run the application:
     ```bash
-    python main.py
+    python app.py
     ```
 
 ## Output
