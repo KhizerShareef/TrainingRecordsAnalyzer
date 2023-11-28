@@ -17,8 +17,8 @@ Assessment - Analyzes data (.json) based on three requirements
 ## Usage
 
 1. Prepare your data file in the specified format (e.g., `trainings.txt`).
-2. Ensure the data file adheres to the structure mentioned in the documentation.
-3. Modify the `data` variable in `main.py` to include your data or specify the data file path accordingly.
+2. Ensure the data file adheres to the structure that was given in the email for "trainings.txt".
+3. Modify the `data` variable in `app.py` to include your data or specify the data file path accordingly.
 4. Run the application:
     ```bash
     python main.py
