@@ -9,7 +9,7 @@ Assessment - Analyzes data (.json) based on three requirements
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/KhizerShareef/TrainingRecordsAnalyzer
+    git clone https://github.com/KhizerShareef/TrainingRecordsAnalyzer.git
     cd TrainingCompletionAnalyzer
     ```
 
