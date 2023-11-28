@@ -1,0 +1,102 @@
+[
+    {
+        "Name": "Animal Care And Use Risk Assessment",
+        "Completed": 99
+    },
+    {
+        "Name": "Awareness Training for the Transport of Hazardous Material",
+        "Completed": 110
+    },
+    {
+        "Name": "Basic Training Program for Animal Users",
+        "Completed": 113
+    },
+    {
+        "Name": "Chemical Waste Requirements",
+        "Completed": 111
+    },
+    {
+        "Name": "DOT Hazard Material Awareness",
+        "Completed": 116
+    },
+    {
+        "Name": "Electrical Safety for Labs",
+        "Completed": 118
+    },
+    {
+        "Name": "Federally Required RCR Training - Must be delivered by PI (Not available online)",
+        "Completed": 114
+    },
+    {
+        "Name": "Health Screening Questionnaire",
+        "Completed": 114
+    },
+    {
+        "Name": "IRB Quiz",
+        "Completed": 99
+    },
+    {
+        "Name": "Laboratory Safety Training",
+        "Completed": 113
+    },
+    {
+        "Name": "Medical Records",
+        "Completed": 104
+    },
+    {
+        "Name": "NIH Guidelines Overview",
+        "Completed": 94
+    },
+    {
+        "Name": "OHS Training",
+        "Completed": 116
+    },
+    {
+        "Name": "Occupational Exposure to Bloodborne Pathogens",
+        "Completed": 102
+    },
+    {
+        "Name": "Physical Science Responsible Conduct of Research Course 1.",
+        "Completed": 111
+    },
+    {
+        "Name": "Radiation Safety Annual Refresher",
+        "Completed": 121
+    },
+    {
+        "Name": "Radioactive Materials Safety Training",
+        "Completed": 121
+    },
+    {
+        "Name": "Retraining in working with the IACUC",
+        "Completed": 114
+    },
+    {
+        "Name": "Safe Handling of Human Cell Lines/Materials in a Research Laboratory",
+        "Completed": 99
+    },
+    {
+        "Name": "Safety Practices and Procedures to Prevent Zoonotic Diseases While Working With Cattle",
+        "Completed": 114
+    },
+    {
+        "Name": "Transportation of Infectious Substances, Category B",
+        "Completed": 107
+    },
+    {
+        "Name": "Understanding Biosafety",
+        "Completed": 123
+    },
+    {
+        "Name": "Using Hazardous Chemicals in an Animal Care Facility",
+        "Completed": 115
+    },
+    {
+        "Name": "Working in Cold Temperatures",
+        "Completed": 110
+    },
+    {
+        "Name": "X-Ray Safety",
+        "Completed": 118
+    }
+]
