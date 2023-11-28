@@ -11,7 +11,7 @@ Assessment - Analyzes data (.json) based on three requirements
 1. Clone the repository:
     ```bash
     git clone https://github.com/KhizerShareef/TrainingRecordsAnalyzer.git
-    cd TrainingCompletionAnalyzer
+    cd TrainingRecordsAnalyzer
     ```
 
 ## Usage
@@ -28,7 +28,7 @@ Assessment - Analyzes data (.json) based on three requirements
 
 The application generates three JSON output files:
 - `completed_training_count.json`: List of completed trainings with a count of people who completed each training.
-- `trainings_completed_in_fiscal_year.json`: Details of people who completed specified trainings in a fiscal year.
+- `people_completed_trainings.json`: Details of people who completed specified trainings in a fiscal year.
 - `expired_or_expiring_trainings.json`: Information about people with expired or expiring trainings based on a specified date.
 
 ## Repository Structure
